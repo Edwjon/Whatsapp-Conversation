@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		475681582522EABF000B4353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475681572522EABF000B4353 /* AppDelegate.swift */; };
 		4756815A2522EABF000B4353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475681592522EABF000B4353 /* SceneDelegate.swift */; };
-		4756815C2522EABF000B4353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756815B2522EABF000B4353 /* ViewController.swift */; };
-		4756815F2522EABF000B4353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4756815D2522EABF000B4353 /* Main.storyboard */; };
 		475681612522EAC2000B4353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475681602522EAC2000B4353 /* Assets.xcassets */; };
 		475681642522EAC2000B4353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475681622522EAC2000B4353 /* LaunchScreen.storyboard */; };
+		475681712522EB1E000B4353 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756816B2522EB1D000B4353 /* ChatMessageCell.swift */; };
+		475681722522EB1E000B4353 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756816C2522EB1D000B4353 /* CustomTabBar.swift */; };
+		475681732522EB1E000B4353 /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756816D2522EB1D000B4353 /* Principal.swift */; };
+		475681742522EB1E000B4353 /* CeldaArriba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756816E2522EB1D000B4353 /* CeldaArriba.swift */; };
+		475681752522EB1E000B4353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4756816F2522EB1E000B4353 /* ViewController.swift */; };
+		475681762522EB1E000B4353 /* CeldaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475681702522EB1E000B4353 /* CeldaPrincipal.swift */; };
+		475681782522EB34000B4353 /* Extensions-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475681772522EB34000B4353 /* Extensions-Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		475681542522EABF000B4353 /* Whatsapp Conversation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whatsapp Conversation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475681572522EABF000B4353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		475681592522EABF000B4353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4756815B2522EABF000B4353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4756815E2522EABF000B4353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		475681602522EAC2000B4353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		475681632522EAC2000B4353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		475681652522EAC2000B4353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4756816B2522EB1D000B4353 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		4756816C2522EB1D000B4353 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4756816D2522EB1D000B4353 /* Principal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
+		4756816E2522EB1D000B4353 /* CeldaArriba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaArriba.swift; sourceTree = "<group>"; };
+		4756816F2522EB1E000B4353 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		475681702522EB1E000B4353 /* CeldaPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaPrincipal.swift; sourceTree = "<group>"; };
+		475681772522EB34000B4353 /* Extensions-Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions-Layout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				475681572522EABF000B4353 /* AppDelegate.swift */,
 				475681592522EABF000B4353 /* SceneDelegate.swift */,
-				4756815B2522EABF000B4353 /* ViewController.swift */,
-				4756815D2522EABF000B4353 /* Main.storyboard */,
+				4756816C2522EB1D000B4353 /* CustomTabBar.swift */,
+				4756816D2522EB1D000B4353 /* Principal.swift */,
+				4756816E2522EB1D000B4353 /* CeldaArriba.swift */,
+				475681702522EB1E000B4353 /* CeldaPrincipal.swift */,
+				4756816F2522EB1E000B4353 /* ViewController.swift */,
+				4756816B2522EB1D000B4353 /* ChatMessageCell.swift */,
 				475681602522EAC2000B4353 /* Assets.xcassets */,
 				475681622522EAC2000B4353 /* LaunchScreen.storyboard */,
 				475681652522EAC2000B4353 /* Info.plist */,
+				475681772522EB34000B4353 /* Extensions-Layout.swift */,
 			);
 			path = "Whatsapp Conversation";
 			sourceTree = "<group>";
@@ -127,7 +142,6 @@
 			files = (
 				475681642522EAC2000B4353 /* LaunchScreen.storyboard in Resources */,
 				475681612522EAC2000B4353 /* Assets.xcassets in Resources */,
-				4756815F2522EABF000B4353 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4756815C2522EABF000B4353 /* ViewController.swift in Sources */,
+				475681732522EB1E000B4353 /* Principal.swift in Sources */,
+				475681722522EB1E000B4353 /* CustomTabBar.swift in Sources */,
+				475681782522EB34000B4353 /* Extensions-Layout.swift in Sources */,
+				475681762522EB1E000B4353 /* CeldaPrincipal.swift in Sources */,
+				475681742522EB1E000B4353 /* CeldaArriba.swift in Sources */,
+				475681712522EB1E000B4353 /* ChatMessageCell.swift in Sources */,
+				475681752522EB1E000B4353 /* ViewController.swift in Sources */,
 				475681582522EABF000B4353 /* AppDelegate.swift in Sources */,
 				4756815A2522EABF000B4353 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4756815D2522EABF000B4353 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4756815E2522EABF000B4353 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		475681622522EAC2000B4353 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Edward-Pizzurro.Whatsapp-Conversation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Edward-Pizzurro.Whatsapp-Conversation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
